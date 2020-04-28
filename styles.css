@@ -1,0 +1,201 @@
+/*Hannah Moss's personal website*/
+
+/*Fonts
+font-family: 'Poiret One', cursive;
+font-family: 'Open Sans', sans-serif;
+*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poiret+One&display=swap');
+
+/*General/base styling*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100%;
+    padding-bottom: 0px;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    padding-bottom: 20px;
+    line-height: 1.5em;
+}
+
+h1 {
+    font-family: 'Poiret One', cursive;
+    margin: 0 auto;
+}
+
+/*make media query for header and navigation bar*/
+
+h2 {
+    font-family: 'Poiret One', cursive;
+    font-size: 40px;
+}
+
+ul {
+
+}
+
+li {
+
+}
+
+div {
+    padding-top: 20px;
+}
+
+a {
+    color: grey;
+    text-decoration: none;
+    transition: color 1s;
+}
+
+a:hover {
+    color: black;
+}
+
+/*Navigation bar*/
+#title {
+    font-family: 'Poiret One', cursive;
+    font-size: 80px;
+    margin: 0 auto;
+}
+
+nav {
+    padding-top: 20px;
+    list-style-type: none;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.space {
+    height: 0px;
+}
+
+.navbar {
+    margin: 0 auto;
+}
+
+nav a {
+    text-decoration: none;
+    color: grey;
+    display: block;
+    background-color: #eeeeee;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    transition: background-color 1.5s;
+}
+
+nav a:hover {
+    text-decoration: none;
+    color: white;
+    background-color: black
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0 auto;
+}
+
+.nav-link {
+    
+}
+
+.nav-link a {
+    text-decoration: none;
+}
+
+#home {
+
+}
+
+#bio {
+    width: 700px;
+    margin: 0 auto;
+}
+
+#media {
+    width: 700px;
+    margin: 0 auto;
+}
+
+#contact {
+    width: 700px;
+    margin: 0 auto;
+}
+
+/*Main Content*/
+
+#main {
+    
+
+}
+
+#coverpicture {
+    background-image: url("hannahtreesbw.jpg");
+    background-position: 50% 42%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 90vh;
+    margin: 0 auto;
+}
+
+blockquote p {
+    font-family: 'Poiret One', cursive;
+    font-size: 30px;
+    color: black;
+    padding-top: 20px;
+}
+
+#quote {
+    width: 40vw;
+    height: auto;
+    font-size: 40px;
+    margin: 0 auto;
+
+}
+
+#secondpicture {
+    background-image: url("headshotbw.jpg");
+    background-position: 50% 42%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 90vh;
+    margin: 0 auto;
+}
+
+#video {
+    margin: 0 auto;
+}
+
+#copyright {
+    text-align: right;
+}
+
+#copyright a {
+    color: #eeeeee;
+    padding: 50px;
+    text-decoration: none;
+    transition: color 1s;
+}
+
+#copyright a:hover {
+    color: black;
+}

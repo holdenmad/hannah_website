@@ -23,14 +23,15 @@ body {
 
 p {
     font-family: 'Open Sans', sans-serif;
-    font-size: 14px;
+    font-size: 18px;
     padding-bottom: 20px;
-    line-height: 1.5em;
+    line-height: 1.7em;
 }
 
 h1 {
     font-family: 'Poiret One', cursive;
     margin: 0 auto;
+    text-align: center;
 }
 
 /*make media query for header and navigation bar*/
@@ -38,6 +39,8 @@ h1 {
 h2 {
     font-family: 'Poiret One', cursive;
     font-size: 40px;
+    text-align: center;
+    padding: 20px;
 }
 
 ul {
@@ -123,18 +126,20 @@ nav ul li {
 }
 
 #bio {
-    width: 700px;
+    width: 60%;
     margin: 0 auto;
+    text-align: justify;
 }
 
 #media {
-    width: 700px;
+    width: 60%;
     margin: 0 auto;
 }
 
 #contact {
-    width: 700px;
+    width: 60%;
     margin: 0 auto;
+    text-align: center;
 }
 
 /*Main Content*/
@@ -183,19 +188,50 @@ blockquote p {
 
 #video {
     margin: 0 auto;
+    text-align: center;
 }
 
-#copyright {
+.gallery-image {
+
+}
+
+#social-media {
+    width: 60%;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+}
+
+.icon {
+    width: 50px;
+    height: auto;
+    padding-right: 10px;
+}
+
+#backtotop {
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+    font-size: 12px;
+}
+
+.copyright {
     text-align: right;
+    padding: 50px;
+    font-size: 12px;
+    color: #eeeeee;
 }
 
-#copyright a {
+.copyright p {
     color: #eeeeee;
-    padding: 50px;
+}
+
+.copyright a {
+    color: #eeeeee;
     text-decoration: none;
     transition: color 1s;
 }
 
-#copyright a:hover {
+.copyright a:hover {
     color: black;
 }

@@ -176,8 +176,8 @@ blockquote p {
 }
 
 #secondpicture {
-    background-image: url("headshotbw.jpg");
-    background-position: 50% 42%;
+    background-image: url("hannahbw2.jpg");
+    background-position: 50% 20%;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -191,8 +191,15 @@ blockquote p {
     text-align: center;
 }
 
-.gallery-image {
+#gallery {
 
+}
+
+.gallery-image {
+    display: block; 
+    margin: 0 auto;
+    width: 300px;
+    height: auto; 
 }
 
 #social-media {

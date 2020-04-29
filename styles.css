@@ -68,7 +68,7 @@ a:hover {
 /*Navigation bar*/
 #title {
     font-family: 'Poiret One', cursive;
-    font-size: 80px;
+    font-size: 5em;
     margin: 0 auto;
 }
 
@@ -155,7 +155,7 @@ nav ul li {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    width: 100%;
+    width: 100%; /*might cause viewport problems*/
     height: 90vh;
     margin: 0 auto;
 }
@@ -181,25 +181,37 @@ blockquote p {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    width: 100%;
+    width: 100%;/*might cause viewport problems*/
     height: 90vh;
     margin: 0 auto;
 }
 
-#video {
-    margin: 0 auto;
+.video {
     text-align: center;
 }
 
-#gallery {
-
+iframe {
+    width: 50vw;
+    height: 50vh;
 }
 
-.gallery-image {
-    display: block; 
-    margin: 0 auto;
+#gallery-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.gallery-item {
+    flex-basis: auto;
+    align-self: auto;
     width: 300px;
     height: auto; 
+}
+
+#contact {
+
 }
 
 #social-media {
@@ -209,17 +221,25 @@ blockquote p {
     text-align: center;
 }
 
+#contact-button {
+    padding: 30px;
+    color: grey;
+    background-color: #eeeeee;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    transition: background-color 1.5s;
+}
+
+#contact-button:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer; 
+}
+
 .icon {
     width: 50px;
     height: auto;
     padding-right: 10px;
-}
-
-#backtotop {
-    text-align: center;
-    width: 60%;
-    margin: 0 auto;
-    font-size: 12px;
 }
 
 .copyright {
@@ -241,4 +261,18 @@ blockquote p {
 
 .copyright a:hover {
     color: black;
+}
+
+/*Media queries*/
+@media (max-width: 817px) {
+    #title {
+        font-size: 3em;
+    }
+}
+
+@media (max-width: 600px) {
+    nav ul li {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
 }

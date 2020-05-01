@@ -151,7 +151,7 @@ nav ul li {
 
 #coverpicture {
     background-image: url("hannahtreesbw.jpg");
-    background-position: 50% 42%;
+    background-position: 50% 40%;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -274,5 +274,16 @@ iframe {
     nav ul li {
         padding-left: 0px;
         padding-right: 0px;
+    }
+}
+
+@media only screen and (max-device-width: 1600px) {
+    #coverpicture {
+        background-attachment: fixed;
+        background-size: cover;
+    }
+    #secondpicture {
+        background-attachment: fixed;
+        background-size: cover;
     }
 }

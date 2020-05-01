@@ -155,10 +155,6 @@ nav ul li {
     background-image: url("hannahtreesbw.jpg");
     background-position: 50% 42%;
     background-repeat: no-repeat;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
     background-attachment: fixed;
     width: 100%;/*might cause viewport problems*/
     height: 90vh;
@@ -184,7 +180,6 @@ blockquote p {
     background-image: url("hannahbw2.jpg");
     background-position: 50% 20%;
     background-repeat: no-repeat;
-    background-size: cover%;
     background-attachment: fixed;
     width: 100%;/*might cause viewport problems*/
     height: 90vh;

@@ -20,7 +20,7 @@ header {
 body {
     font-family: 'Open Sans', sans-serif;
     height: 100vh;
-    width: 100vm;
+    width: 100vw;
 }
 
 p {
@@ -155,9 +155,12 @@ nav ul li {
     background-image: url("hannahtreesbw.jpg");
     background-position: 50% 42%;
     background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
     background-attachment: fixed;
-    width: 100%; /*might cause viewport problems*/
+    width: 100vw; /*might cause viewport problems*/
     height: 90vh;
     margin: 0 auto;
 }

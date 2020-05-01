@@ -160,6 +160,8 @@ nav ul li {
     -o-background-size: cover;
     background-size: cover;
     background-attachment: fixed;
+    width: 100%;/*might cause viewport problems*/
+    height: 90vh;
     margin: 0 auto;
 }
 

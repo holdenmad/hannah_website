@@ -150,13 +150,11 @@ nav ul li {
 }
 
 #coverpicture {
-    display: block;
     background-image: url("images/hannahbw2.jpg");
     background-position: 50% 25%;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
-    z-index: -10;
     width: 100%;/*might cause viewport problems*/
     height: 90vh;
     margin: 0 auto;
@@ -280,13 +278,12 @@ iframe {
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 480px) {
     #coverpicture {
-        background-attachment: initial;
-    }
+    background-image: url("images/hannahbw2.jpg") no-repeat 50% 25% fixed;
+}
     #secondpicture {
-        background-attachment: initial;
-
+        background-image: url("images/DSCF7486.jpg") no-repeat 50% 25% fixed;
     }
     h2 {
         font-size: 40px;

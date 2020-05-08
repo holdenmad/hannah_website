@@ -19,4 +19,3 @@ I wanted to focus on making another portfolio website like for the FreeCodeCamp 
 - Flex-box
 - Grids
 - PHP contact forms
-- 

@@ -126,13 +126,13 @@ nav ul li {
 }
 
 #bio {
-    width: 60%;
+    width: 70%;
     margin: 0 auto;
     text-align: justify;
 }
 
 #media {
-    width: 60%;
+    width: 80%;
     margin: 0 auto;
 }
 
@@ -278,7 +278,7 @@ iframe {
     }
 }
 
-@media screen and (max-width: 500px) {
+@media only screen and (max-width: 500px) {
     #coverpicture {
         background-image: url("images/hannahbw2.jpg");
         background-position: 50% 25%;

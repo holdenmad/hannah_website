@@ -150,9 +150,10 @@ nav ul li {
 }
 
 #coverpicture {
-    background-image: url("hannahtreesbw.jpg");
-    background-position: 50% 40%;
-    background-repeat: center center;
+    background-image: url("images/hannahbw2.jpg");
+    background-position: 50% 25%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
     background-size: cover;
     width: 100%;/*might cause viewport problems*/
     height: 90vh;
@@ -175,8 +176,9 @@ blockquote p {
 }
 
 #secondpicture {
-    background-image: url("hannahbw2.jpg");
-    background-position: center center;
+    background-image: url("images/DSCF7486.jpg");
+    background-position: 50% 20%;
+    background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;/*might cause viewport problems*/
@@ -275,11 +277,16 @@ iframe {
     }
 }
 
-@media only screen and (max-device-width: 1600px) {
-    #coverpicture {
-        
+@media only screen and (max-width: 600px) {
+   #coverpicture {
+        background-attachment: default;
     }
     #secondpicture {
-        
+        background-attachment: default;
     }
+    h2 {
+        font-size: 40px;
+    }
+
+
 }

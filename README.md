@@ -8,7 +8,7 @@ I wanted to focus on making another portfolio website like for the FreeCodeCamp 
 - Obtimizing background-images
 - Cropping images in CSS
 - Limits of customization of images in CSS/when to just use Gimp instead
-- Parallax effect
+- The horrors of the parallax effect
 - Testing mobile versions on actual devices
 - Problems with fixed/absolute images on mobile
 - Obtaining free icons and crediting appropriately

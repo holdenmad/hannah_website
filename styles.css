@@ -207,7 +207,8 @@ iframe {
     flex-basis: auto;
     align-self: auto;
     width: 300px;
-    height: auto; 
+    height: 300px;
+    object-fit: cover;
 }
 
 #contact {
